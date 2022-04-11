@@ -1,0 +1,17 @@
+[
+	{
+		"username": "aditya"
+	},
+	{
+		"username": "sunny",
+		"perms": {
+			"admin": true
+		}
+	},
+	{
+		"username": "kunal",
+		"perms": {
+			"write": true
+		}
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"student name": "Aditya Pathak",
+		"USN": "1SI18IS003",
+		"branch": "Information Science",
+		"cgpa": 7.87,
+		"offers": [
+			{
+				"company name": "Nuclei",
+				"package": 1600000,
+				"role": "full stack developer",
+				"full time": true
+			}
+		]
+	},
+	{
+		"student name": "Amit Shahwal",
+		"USN": "1SI18IS063",
+		"branch": "Information Science",
+		"cgpa": 9.14,
+		"offers": [
+			{
+				"company name": "Amazon",
+				"package": 3200000,
+				"role": "big data engineer",
+				"full time": false
+			},
+			{
+				"company name": "TCS Digital",
+				"package": 750000,
+				"role": "associate engineer",
+				"full time": true
+			}
+		]
+	}
+]
