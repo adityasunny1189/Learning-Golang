@@ -21,8 +21,10 @@ func DecodeJSON() {
 		return
 	}
 	queryStudent := "Amit Shahwal"
+	ok := false
 	for _, student := range students {
 		if student.Name == queryStudent {
+			ok = true
 			for _, placementOffer := range student.Offers {
 				if placementOffer.Fte {
 					fmt.Printf("got full time offer of %f from %s\n",
@@ -30,5 +32,8 @@ func DecodeJSON() {
 				}
 			}
 		}
+	}
+	if !ok {
+		fmt.Printf("student details not present\n")
 	}
 }
