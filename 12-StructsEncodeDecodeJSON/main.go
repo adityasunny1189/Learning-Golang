@@ -28,5 +28,6 @@ func main() {
 	// src.SongCollection()
 	// encodedecode.EncodeJSON()
 	// encodedecode.DecodeJSON()
-	practice.EncodeJSON()
+	// practice.EncodeJSON()
+	practice.DecodeJSON()
 }
